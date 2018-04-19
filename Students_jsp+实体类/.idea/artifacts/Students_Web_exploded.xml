@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Students:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Students_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Students/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Students" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="mysql-connector-java-5.0.8-bin.jar" module-name="Students" />
+          <element id="library" level="module" name="jstl-1.2.jar" module-name="Students" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
